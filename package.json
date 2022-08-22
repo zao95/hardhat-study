@@ -3,7 +3,9 @@
     "scripts": {
         "compile": "hardhat compile",
         "test": "hardhat test",
-        "coverage": "hardhat coverage"
+        "coverage": "hardhat coverage",
+        "node": "hardhat node",
+        "deploy": "hardhat run --network localhost scripts/deploy.ts"
     },
     "devDependencies": {
         "@ethersproject/abi": "^5.7.0",
@@ -20,6 +22,7 @@
         "@types/mocha": "^9.1.1",
         "@types/node": "^18.7.9",
         "chai": "^4.3.6",
+        "dotenv": "^16.0.1",
         "hardhat": "^2.10.2",
         "hardhat-gas-reporter": "^1.0.8",
         "solidity-coverage": "^0.7.21",

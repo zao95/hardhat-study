@@ -15,6 +15,7 @@ specifiers:
   '@types/mocha': ^9.1.1
   '@types/node': ^18.7.9
   chai: ^4.3.6
+  dotenv: ^16.0.1
   ethers: ^5.7.0
   hardhat: ^2.10.2
   hardhat-gas-reporter: ^1.0.8
@@ -41,6 +42,7 @@ devDependencies:
   '@types/mocha': 9.1.1
   '@types/node': 18.7.9
   chai: 4.3.6
+  dotenv: 16.0.1
   hardhat: 2.10.2_6oasmw356qmm23djlsjgkwvrtm
   hardhat-gas-reporter: 1.0.8_hardhat@2.10.2
   solidity-coverage: 0.7.21
@@ -1948,6 +1950,11 @@ packages:
 
   /dom-walk/0.1.2:
     resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==}
+    dev: true
+
+  /dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
+    engines: {node: '>=12'}
     dev: true
 
   /duplexer3/0.1.5:
